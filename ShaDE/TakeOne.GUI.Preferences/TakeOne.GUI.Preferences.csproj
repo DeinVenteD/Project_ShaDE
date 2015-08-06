@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CA7B449F-F922-4AC2-B869-B05A08F8D8AD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TakeOne.GUI.Preferences</RootNamespace>
+    <AssemblyName>TakeOne.GUI.Preferences</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PreferenceTimeCodeBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PreferenceTimeCodeBox.Designer.cs">
+      <DependentUpon>PreferenceTimeCodeBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreferenceItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PreferenceItem.Designer.cs">
+      <DependentUpon>PreferenceItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreferenceBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PreferenceBox.Designer.cs">
+      <DependentUpon>PreferenceBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PreferenceCheckBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PreferenceCheckBox.Designer.cs">
+      <DependentUpon>PreferenceCheckBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreferenceColorDialog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PreferenceColorDialog.Designer.cs">
+      <DependentUpon>PreferenceColorDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreferenceFolderBrowser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PreferenceFolderBrowser.Designer.cs">
+      <DependentUpon>PreferenceFolderBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreferenceNumericUpDown.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PreferenceNumericUpDown.Designer.cs">
+      <DependentUpon>PreferenceNumericUpDown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreferenceSelectionBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PreferenceSelectionBox.Designer.cs">
+      <DependentUpon>PreferenceSelectionBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreferenceSetShortcutDialog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PreferenceSetShortcutDialog.Designer.cs">
+      <DependentUpon>PreferenceSetShortcutDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreferenceTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PreferenceTextBox.Designer.cs">
+      <DependentUpon>PreferenceTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreferenceTrackbar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PreferenceTrackbar.Designer.cs">
+      <DependentUpon>PreferenceTrackbar.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="PreferenceTimeCodeBox.resx">
+      <DependentUpon>PreferenceTimeCodeBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreferenceItem.resx">
+      <DependentUpon>PreferenceItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreferenceBox.resx">
+      <DependentUpon>PreferenceBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreferenceCheckBox.resx">
+      <DependentUpon>PreferenceCheckBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreferenceColorDialog.resx">
+      <DependentUpon>PreferenceColorDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreferenceFolderBrowser.resx">
+      <DependentUpon>PreferenceFolderBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreferenceNumericUpDown.resx">
+      <DependentUpon>PreferenceNumericUpDown.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreferenceSelectionBox.resx">
+      <DependentUpon>PreferenceSelectionBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreferenceSetShortcutDialog.resx">
+      <DependentUpon>PreferenceSetShortcutDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreferenceTextBox.resx">
+      <DependentUpon>PreferenceTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreferenceTrackbar.resx">
+      <DependentUpon>PreferenceTrackbar.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TakeOne.GUI\TakeOne.GUI.csproj">
+      <Project>{6471453f-b2f9-494a-9310-42cd75408a6f}</Project>
+      <Name>TakeOne.GUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TakeOne\TakeOne.csproj">
+      <Project>{6f81638f-7d62-4ecc-b1a3-91e36fd50a9d}</Project>
+      <Name>TakeOne</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
