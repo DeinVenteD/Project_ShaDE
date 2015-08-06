@@ -288,7 +288,7 @@
             this.openToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.openToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.openToolStripMenuItem.Text = "Open Solution";
             // 
             // openFileToolStripMenuItem
@@ -296,7 +296,7 @@
             this.openFileToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.openFileToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.openFileToolStripMenuItem.Name = "openFileToolStripMenuItem";
-            this.openFileToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.openFileToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.openFileToolStripMenuItem.Text = "Open File";
             // 
             // newToolStripMenuItem
@@ -307,7 +307,7 @@
             this.fileToolStripMenuItem1});
             this.newToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.newToolStripMenuItem.Name = "newToolStripMenuItem";
-            this.newToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.newToolStripMenuItem.Text = "New";
             this.newToolStripMenuItem.Visible = false;
             // 
@@ -316,7 +316,7 @@
             this.projectToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.projectToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.projectToolStripMenuItem.Name = "projectToolStripMenuItem";
-            this.projectToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.projectToolStripMenuItem.Size = new System.Drawing.Size(111, 22);
             this.projectToolStripMenuItem.Text = "Project";
             // 
             // fileToolStripMenuItem1
@@ -324,7 +324,7 @@
             this.fileToolStripMenuItem1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.fileToolStripMenuItem1.ForeColor = System.Drawing.Color.White;
             this.fileToolStripMenuItem1.Name = "fileToolStripMenuItem1";
-            this.fileToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.fileToolStripMenuItem1.Size = new System.Drawing.Size(111, 22);
             this.fileToolStripMenuItem1.Text = "File";
             // 
             // addToolStripMenuItem
@@ -335,7 +335,7 @@
             this.newProjectToolStripMenuItem});
             this.addToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.addToolStripMenuItem.Name = "addToolStripMenuItem";
-            this.addToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.addToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.addToolStripMenuItem.Text = "Add";
             this.addToolStripMenuItem.Visible = false;
             // 
@@ -360,7 +360,7 @@
             this.closeToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.closeToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.closeToolStripMenuItem.Name = "closeToolStripMenuItem";
-            this.closeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.closeToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.closeToolStripMenuItem.Text = "Close";
             this.closeToolStripMenuItem.Visible = false;
             // 
@@ -369,7 +369,7 @@
             this.saveToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.saveToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.saveToolStripMenuItem.Text = "Save";
             this.saveToolStripMenuItem.Visible = false;
             // 
@@ -378,7 +378,7 @@
             this.saveAsToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.saveAsToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
-            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.saveAsToolStripMenuItem.Text = "Save As";
             this.saveAsToolStripMenuItem.Visible = false;
             // 
@@ -387,7 +387,7 @@
             this.saveAllToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.saveAllToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.saveAllToolStripMenuItem.Name = "saveAllToolStripMenuItem";
-            this.saveAllToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.saveAllToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.saveAllToolStripMenuItem.Text = "Save All";
             // 
             // exitToolStripMenuItem
@@ -395,7 +395,7 @@
             this.exitToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.exitToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             // 
             // viewToolStripMenuItem
@@ -441,7 +441,7 @@
             this.buildToolStripMenuItem1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.buildToolStripMenuItem1.ForeColor = System.Drawing.Color.White;
             this.buildToolStripMenuItem1.Name = "buildToolStripMenuItem1";
-            this.buildToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.buildToolStripMenuItem1.Size = new System.Drawing.Size(148, 22);
             this.buildToolStripMenuItem1.Text = "Build Solution";
             // 
             // buildRunToolStripMenuItem
@@ -449,7 +449,7 @@
             this.buildRunToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.buildRunToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.buildRunToolStripMenuItem.Name = "buildRunToolStripMenuItem";
-            this.buildRunToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.buildRunToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.buildRunToolStripMenuItem.Text = "Build and Run";
             // 
             // helpToolStripMenuItem
@@ -494,6 +494,7 @@
             // BuildInterface_CPU
             // 
             this.BuildInterface_CPU.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.BuildInterface_CPU.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.BuildInterface_CPU.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BuildInterface_CPU.ForeColor = System.Drawing.Color.White;
             this.BuildInterface_CPU.FormattingEnabled = true;
@@ -503,11 +504,11 @@
             this.BuildInterface_CPU.Name = "BuildInterface_CPU";
             this.BuildInterface_CPU.Size = new System.Drawing.Size(91, 21);
             this.BuildInterface_CPU.TabIndex = 2;
-            this.BuildInterface_CPU.Text = "Any CPU";
             // 
             // BuildInterface_Configuration
             // 
             this.BuildInterface_Configuration.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.BuildInterface_Configuration.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.BuildInterface_Configuration.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BuildInterface_Configuration.ForeColor = System.Drawing.Color.White;
             this.BuildInterface_Configuration.FormattingEnabled = true;
@@ -518,7 +519,6 @@
             this.BuildInterface_Configuration.Name = "BuildInterface_Configuration";
             this.BuildInterface_Configuration.Size = new System.Drawing.Size(75, 21);
             this.BuildInterface_Configuration.TabIndex = 1;
-            this.BuildInterface_Configuration.Text = "Debug";
             // 
             // BuildInterface_Start
             // 

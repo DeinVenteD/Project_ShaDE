@@ -28,7 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.BuildInterface.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // BuildInterface
+            // 
+            this.BuildInterface.Size = new System.Drawing.Size(867, 34);
+            // 
+            // BuildInterface_Start
+            // 
+            this.BuildInterface_Start.FlatAppearance.BorderSize = 0;
             // 
             // _Parent
             // 
@@ -44,7 +53,8 @@
             this.Name = "_Parent";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.Title = "ShaDE";
+            this.Title = "ShaDE : Shader Handling and Development Environment";
+            this.BuildInterface.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
