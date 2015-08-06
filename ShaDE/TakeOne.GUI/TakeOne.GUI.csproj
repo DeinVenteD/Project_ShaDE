@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6471453F-B2F9-494A-9310-42CD75408A6F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TakeOne.GUI</RootNamespace>
+    <AssemblyName>TakeOne.GUI</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WeifenLuo.WinFormsUI.Docking, Version=2.9.0.0, Culture=neutral, PublicKeyToken=5cded1a1a0a7b481, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DLLS\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CheckBox.Designer.cs">
+      <DependentUpon>CheckBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeletionDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeletionDialog.Designer.cs">
+      <DependentUpon>DeletionDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FileListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FileSearchBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FileSearchBox.Designer.cs">
+      <DependentUpon>FileSearchBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ErrorDisplay.Designer.cs">
+      <DependentUpon>ErrorDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageBox.Designer.cs">
+      <DependentUpon>MessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NumericUpDown.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NumericUpDown.Designer.cs">
+      <DependentUpon>NumericUpDown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SetShortcutDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetShortcutDialog.Designer.cs">
+      <DependentUpon>SetShortcutDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgressBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProgressBar.Designer.cs">
+      <DependentUpon>ProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TimeCodeInput.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TimeCodeInput.Designer.cs">
+      <DependentUpon>TimeCodeInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrackBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TrackBar.Designer.cs">
+      <DependentUpon>TrackBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrackValueBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TrackValueBar.Designer.cs">
+      <DependentUpon>TrackValueBar.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CheckBox.resx">
+      <DependentUpon>CheckBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeletionDialog.resx">
+      <DependentUpon>DeletionDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileSearchBox.resx">
+      <DependentUpon>FileSearchBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorDisplay.resx">
+      <DependentUpon>ErrorDisplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageBox.resx">
+      <DependentUpon>MessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NumericUpDown.resx">
+      <DependentUpon>NumericUpDown.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetShortcutDialog.resx">
+      <DependentUpon>SetShortcutDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgressBar.resx">
+      <DependentUpon>ProgressBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeCodeInput.resx">
+      <DependentUpon>TimeCodeInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrackBar.resx">
+      <DependentUpon>TrackBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrackValueBar.resx">
+      <DependentUpon>TrackValueBar.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakeOne.GUI_Line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakeOne.GUI_Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakeOne.GUI_TOM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakeOne.GUI_TOM2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakeOne.GUI_TRB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakeOne.GUI_TRB2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakeOne.GUI_TRC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakeOne.GUI_TRC2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakeOne.GUI_C3D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakeOne.GUI_C3D2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakeOne.GUI_CAP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakeOne.GUI_CAP2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakeOne.GUI_SortByTime.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakeOne.GUI_SortByName.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakeOne.GUI_SortBySize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakeOne.GUI_SortByType.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakeOne.GUI_SortByName_Blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakeOne.GUI_SortByName_Orange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakeOne.GUI_SortBySize_Blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakeOne.GUI_SortBySize_Orange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakeOne.GUI_SortByTime_Blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakeOne.GUI_SortByTime_Orange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakeOne.GUI_SortByType_Blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakeOne.GUI_SortByType_Orange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakeOne.GUI_Search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakeOne.GUI_Checkbox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakeOne.GUI_CheckboxNew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakeOne.GUI_PT32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakeOne.GUI_TAK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakeOne.GUI_TAK2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakeOne.GUI_PT3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakeOne.GUI_HDF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakeOne.GUI_HDF2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TakeOne.WindowSuite\TakeOne.WindowSuite.csproj">
+      <Project>{71b96b53-64e9-4ec0-8f02-5342df2ab856}</Project>
+      <Name>TakeOne.WindowSuite</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TakeOne.WindowSuite\WinFormsUI\WinFormsUI.csproj">
+      <Project>{c75532c4-765b-418e-b09b-46d36b2abdb1}</Project>
+      <Name>WinFormsUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TakeOne\TakeOne.csproj">
+      <Project>{6f81638f-7d62-4ecc-b1a3-91e36fd50a9d}</Project>
+      <Name>TakeOne</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrowDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrowUp.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
